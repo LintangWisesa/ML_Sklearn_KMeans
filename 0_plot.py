@@ -8,7 +8,7 @@ df = pd.read_excel('data.xlsx')
 
 # plot data
 plt.scatter(df['usia'], df['gaji'])
-plt.xlabel('Gaji')
-plt.ylabel('Usia')
+plt.xlabel('Usia')
+plt.ylabel('Gaji')
 plt.grid(True)
 plt.show()
